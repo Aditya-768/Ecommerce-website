@@ -69,4 +69,7 @@
     .btn{
         font-size: .8rem;
     }
+    ul{
+        flex-direction:column;
+    }
 }
