@@ -3,11 +3,6 @@
     .services{
         flex-wrap: wrap;
     }
-    .clients{
-        flex-wrap: wrap;
-        /* overflow: hidden; */
-        /* box-sizing: border-box; */
-    }
     .clients img{
         width:5rem;
         height:5rem;
@@ -19,20 +14,6 @@
     .clients-section::before{
         height: 15rem;
     }
-}
-@media screen and (max-width:600px) {
-    .clients-section{
-        /* margin-bottom: 4rem; */
-        /* overflow: hidden; */
-        /* box-sizing: border-box; */
-    }
-}
-@media screen and (max-width:800)
-{
-    .clients-section{
-        /* height:60rem; */
-    }
-
 }
 
 @media screen and (max-width:736px)
@@ -60,19 +41,9 @@
         /* font-size: .5rem; */
     }
     .nav-div{
-        /* border: 4px solid green; */
-        /* width: 50%; */
-        /* font-size: .5em; */
         justify-content: center;
         flex-wrap: wrap;
-        flex-direction: column;
-        /* border-width: 3px solid rgb(255, 255, 255); */
-        /* padding: rem 0rem; */
     }
-
-     /* p, h1, h2, h3{
-        font-size: 1rem;
-    } */
     nav ul a{
         font-size: 1rem;
         padding:0 1rem;
@@ -80,9 +51,6 @@
 
     .services img{
         width:10rem;
-    }
-    .h-primary{
-        font-size: 1.5rem;
     }
     #footer{
         font-size: 1px;
@@ -92,9 +60,6 @@
 
 @media screen and (max-width:455px)
 {
-    *{
-        font-size: .8rem;
-    }
     #about-section{
         padding: 0;
     }
